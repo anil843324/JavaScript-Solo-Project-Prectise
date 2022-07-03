@@ -57,3 +57,33 @@ const quizData = [
 
 
 ]
+
+const questionEl=document.getElementById('question')
+
+ const  a =document.getElementById('a_text')
+ const  b =document.getElementById('b_text')
+ const  c =document.getElementById('c_text')
+ const  d =document.getElementById('d_text')
+
+let currentQuiz=0;
+
+
+
+
+loadQuiz();
+
+function  loadQuiz(){
+
+      const currentQuizData=quizData[currentQuiz]
+
+       questionEl.innerText=currentQuizData.question;
+
+       a.innerText=currentQuizData.a
+       b.innerText=currentQuizData.b
+       c.innerText=currentQuizData.c
+       d.innerText=currentQuizData.d
+        
+      
+    
+}
+
