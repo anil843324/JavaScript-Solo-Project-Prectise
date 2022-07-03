@@ -22,8 +22,6 @@ reset_btn.addEventListener('click', reset)
 const timer = () => {
 
 
-
-
     if (second > 0) {
         second--;
     } else {
