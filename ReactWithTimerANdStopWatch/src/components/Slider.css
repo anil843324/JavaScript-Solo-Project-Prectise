@@ -1,0 +1,21 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    overflow: hidden;
+} 
+
+ img{
+    
+    width: 80%;
+    height: 70vh;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+}
+
