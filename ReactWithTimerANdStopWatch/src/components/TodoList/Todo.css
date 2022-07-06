@@ -1,0 +1,29 @@
+
+
+
+.showitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+   
+}
+.eachItems{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-left: 10px;
+     padding-right: 10px;
+     width: 240px;
+     height: 40px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+
+.icondiv{
+    display: flex;
+    gap: 5px;
+}

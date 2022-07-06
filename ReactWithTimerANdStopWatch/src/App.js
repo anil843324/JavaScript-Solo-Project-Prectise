@@ -6,6 +6,7 @@ import Slider from './components/Slider';
 
 import StopWatch from './components/StopWatch';
 import Timer from './components/Timer';
+import Todo from './components/TodoList/Todo';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
        {/* <Timer/>  */}
        {/* <PrectiseStopWactch/> */}
        {/* <PrectiseTimer/> */}
-       <Slider/>
+       {/* <Slider/> */}
+
+       <Todo/>
     
     </div>
   );
