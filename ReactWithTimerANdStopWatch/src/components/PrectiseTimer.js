@@ -16,14 +16,14 @@ const PrectiseTimer = () => {
 
         let interval = null;
 
-         if(min && sec){
-     
-             setTime( Number(min*60)+Number(sec) )
-             console.log(Number(min*60)+Number(sec) )
-           setSec(0)
+        if (min && sec) {
+
+            setTime(Number(min * 60) + Number(sec))
+            console.log(Number(min * 60) + Number(sec))
+            setSec(0)
             setMin(0)
-         }
-    
+        }
+
         if (timerOn) {
             interval = setInterval(() => {
 
@@ -40,7 +40,7 @@ const PrectiseTimer = () => {
         return () => clearInterval(interval)
 
 
-    }, [timerOn ,setMin,setSec])
+    }, [timerOn, setMin, setSec])
 
 
 
@@ -52,12 +52,12 @@ const PrectiseTimer = () => {
             <div style={{ display: "flex" }} >
                 <div style={{ display: "flex" }} >
                     <span>Min</span>
-                    <input type="number" placeholder='Enter Minute' value={min} onChange={(e) => setMin(e.target.value) } />
+                    <input type="number" placeholder='Enter Minute' value={min} onChange={(e) => setMin(e.target.value)} />
 
                 </div>
                 <div style={{ display: "flex" }} >
                     <span>Sec</span>
-                    <input type="number" placeholder='Enter Sec' value={sec} onChange={(e) =>  setSec(e.target.value) } />
+                    <input type="number" placeholder='Enter Sec' value={sec} onChange={(e) => setSec(e.target.value)} />
                 </div>
             </div>
 

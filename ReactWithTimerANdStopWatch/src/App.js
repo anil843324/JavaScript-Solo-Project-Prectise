@@ -2,7 +2,9 @@
 import './App.css';
 import PrectiseStopWactch from './components/PrectiseStopWactch';
 import PrectiseTimer from './components/PrectiseTimer';
+import Timer3 from './components/PrectiseTimer/Timer3';
 import StopWatch2 from './components/PrectiseTimerStopWatch/StopWatch2';
+import Todo2 from './components/PrectiseTodo/Todo2';
 import Slider from './components/Slider';
 
 import StopWatch from './components/StopWatch';
@@ -19,7 +21,9 @@ function App() {
        {/* <Slider/> */}
 
        {/* <Todo/> */}
-       <StopWatch2/>
+       {/* <StopWatch2/> */}
+       {/* <Timer3/> */}
+       <Todo2/>
     </div>
   );
 }
